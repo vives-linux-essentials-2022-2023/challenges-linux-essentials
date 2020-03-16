@@ -23,3 +23,25 @@ Add the user account `davy` to the group `sudo`. Now repeat the process. Is it w
 Now switch to the superuser using `sudo su`.
 
 Now execute the `su davy` command from the superuser session. Take a screenshot of the terminal. Why do we not need to provide the password of `davy`?
+
+## Auth.log
+
+What does the file `/log/var/auth.log` track? Provide an example that shows entries being added to the log after you executed the commands. Provide some screenshots.
+
+## Basic Permissions
+
+### Editable Text Configuration
+
+Who is the owner of the `/etc` directory on the system?
+
+What are the permissions on this directory? Why can you list the content of this directory? Explain the permissions.
+
+### Chmod
+
+Create a file called `davys_secrets.txt` inside of the `tmp` directory. Add some content to the file using nano.
+
+What are the current permissions and who is the owner of the file?
+
+Change the owner to `davy`. Can you still read / change the content of the file?
+
+What command would you need to lock everyone except davy out of the file? Make sure to test it.
