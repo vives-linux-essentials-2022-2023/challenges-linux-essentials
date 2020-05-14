@@ -30,7 +30,7 @@ Example on how to call the script:
 
 ### Fetching Github Keys
 
-Create a script that fetches the public SSH keys of a user on GitHub and displays them in the terminal. This can be accomplished by using the `curl` tool to access the endpoint [http://github.com/<username>.keys](http://github.com/<username>.keys), where `<username>` is an existing github username.
+Create a script that fetches the public SSH keys of a user on GitHub and displays them in the terminal. This can be accomplished by using the `curl` tool to access the endpoint [https://github.com/<username>.keys](https://github.com/<username>.keys), where `<username>` is an existing github username.
 
 Take in the username via the command line arguments. If none is provided request it from the user using the `read` command.
 
