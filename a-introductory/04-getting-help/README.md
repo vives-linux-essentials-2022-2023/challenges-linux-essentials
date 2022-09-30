@@ -56,7 +56,7 @@ Mark challenges using a ✅ once they are finished.
 
 *Find the IP address of your WiFi interface. What command did you use?*
 
-## ❌ IP of Sivir Server
+## ❌ IP of Redmine Server
 
 *What is the IP address of the server `project.devbit.be`?*
 
